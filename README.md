@@ -1,6 +1,7 @@
 <img width="1010" height="304" alt="training_validation_loss" src="https://github.com/user-attachments/assets/9a19442a-d636-4d1b-9a3a-523395bb4ac5" />
 <img width="880" height="708" alt="training_validation_accuracy" src="https://github.com/user-attachments/assets/bb1f03c6-fafd-401e-a08d-8e58b017f1f8" />
 [README.md](https://github.com/user-attachments/files/29865293/README.md)
+
 # Multiclass Image Classification — Dog Breed Identification
 
 A deep learning project that classifies images of dogs into **120 breeds** using transfer learning with **InceptionResNetV2** (pretrained on ImageNet) and TensorFlow/Keras.
