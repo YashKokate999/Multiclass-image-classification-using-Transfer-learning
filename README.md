@@ -1,6 +1,3 @@
-<img width="1010" height="304" alt="training_validation_loss" src="https://github.com/user-attachments/assets/9a19442a-d636-4d1b-9a3a-523395bb4ac5" />
-<img width="880" height="708" alt="training_validation_accuracy" src="https://github.com/user-attachments/assets/bb1f03c6-fafd-401e-a08d-8e58b017f1f8" />
-[README.md](https://github.com/user-attachments/files/29865293/README.md)
 
 # Multiclass Image Classification — Dog Breed Identification
 
@@ -53,12 +50,11 @@ The model was trained for 16 epochs (early stopping restored the best weights) a
 | Loss (Cross Entropy) | 0.1790 | 0.4740 |
 
 **Training and Validation Accuracy**
-
-![Training and Validation Accuracy](images/training_validation_accuracy.png)
+<img width="1010" height="304" alt="training_validation_loss" src="https://github.com/user-attachments/assets/9a19442a-d636-4d1b-9a3a-523395bb4ac5" />
 
 **Training and Validation Loss**
 
-![Training and Validation Loss](images/training_validation_loss.png)
+<img width="880" height="708" alt="training_validation_accuracy" src="https://github.com/user-attachments/assets/bb1f03c6-fafd-401e-a08d-8e58b017f1f8" />
 
 Training accuracy climbs steadily and settles around 94–95%, while validation accuracy plateaus near 90%, with validation loss beginning to drift upward after roughly epoch 5 — indicating the model starts mildly overfitting past that point, which is where early stopping helps preserve the best-performing weights.
 
